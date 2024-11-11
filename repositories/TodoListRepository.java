@@ -7,4 +7,6 @@ public interface TodoListRepository {
     void add(TodoList todoList);
     Boolean remove(Integer id);
     Boolean edit(Integer todolist);
+
+    Boolean edit(TodoList todoList);
 }

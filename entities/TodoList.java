@@ -1,7 +1,5 @@
 package entities;
 
-import java.security.PrivateKey;
-
 public class TodoList {
     private String todo;
     private Integer id;
@@ -24,5 +22,8 @@ public class TodoList {
 
     public void setId(final Integer id) {
         this.id = id;
+    }
+
+    public void add(TodoList todoList) {
     }
 }
